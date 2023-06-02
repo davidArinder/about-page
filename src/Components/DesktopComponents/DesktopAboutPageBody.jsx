@@ -1,5 +1,5 @@
-import Apple from "../../Images/apple.jpg";
-import Pyramid from "../../Images/Pyramid.png";
+import apple from "../../Images/apple.jpg";
+import pyramid from "../../Images/pyramid.png";
 import {
   about,
   ourVision,
@@ -17,7 +17,7 @@ const DesktopAboutPageBody = () => {
   return (
     <div className="DesktopAboutPageBody">
       <div className="DesktopAbout">{about}</div>
-      <img src={Apple} alt="Apple" className="DesktopApple" />
+      <img src={apple} alt="Apple" className="DesktopApple" />
       <div className="DesktopMaskOne"></div>
       <div className="DesktopFirstText">{firstText}</div>
       <div className="DesktopSecondText">{secondText}</div>
@@ -25,7 +25,7 @@ const DesktopAboutPageBody = () => {
       <div className="DesktopFourthText">{fourthText}</div>
       <div className="DesktopVision">{ourVision}</div>
       <div className="DesktopMaskTwo"></div>
-      <img src={Pyramid} alt="Pyramid" className="DesktopPyramid" />
+      <img src={pyramid} alt="Pyramid" className="DesktopPyramid" />
       <div className="DesktopValues">{ourValues}</div>
       <div className="DesktopFifthText">{fifthText}</div>
       <div className="DesktopSixthText">{sixthText}</div>

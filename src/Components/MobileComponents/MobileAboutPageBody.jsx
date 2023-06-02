@@ -1,5 +1,5 @@
 import smallApple from "../../Images/smallApple.png";
-import Pyramid from "../../Images/Pyramid.png";
+import pyramid from "../../Images/pyramid.png";
 import {
   about,
   ourVision,
@@ -24,9 +24,8 @@ const MobileAboutPageBody = () => {
       <div className="MobileVision">{ourVision}</div>
       <div className="MobileThirdText">{thirdText}</div>
       <div className="MobileFourthText">{fourthText}</div>
-
       <div className="MobileMaskTwo"></div>
-      <img src={Pyramid} alt="Pyramid" className="MobilePyramid" />
+      <img src={pyramid} alt="Pyramid" className="MobilePyramid" />
       <div className="MobileValues">{ourValues}</div>
       <div className="MobileFifthText">{fifthText}</div>
       <div className="MobileSixthText">{sixthText}</div>

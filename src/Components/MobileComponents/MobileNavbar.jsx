@@ -1,12 +1,11 @@
-// import "../css/mobile.styles.css";
-import HamburgerMenu from "../../Images/hamburger.svg";
+import hamburgerMenu from "../../Images/hamburger.svg";
 
 const MobileNavbar = () => {
   return (
     <div className="MobileNavbar">
       <div className="MobileMenu">MENU</div>
       <img
-        src={HamburgerMenu}
+        src={hamburgerMenu}
         alt="Hamburger Menu"
         className="MobileHamburgerMenu"
       />
