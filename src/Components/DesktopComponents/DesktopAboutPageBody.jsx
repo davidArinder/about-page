@@ -1,5 +1,5 @@
-import apple from "../../Images/apple.jpg";
-import pyramid from "../../Images/pyramid.png";
+import apple from "../../Assets/Images/apple.jpg";
+import pyramid from "../../Assets/Images/pyramid.png";
 import {
   about,
   ourVision,

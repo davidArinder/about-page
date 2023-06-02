@@ -5,7 +5,7 @@
 
 .DesktopAboutPage {
   max-width: 1440px;
-  max-height: 3077px;
+  height: 3077px;
   display: flex;
   flex-direction: column;
 }
@@ -28,7 +28,7 @@
   width: 46px;
   height: 19px;
   margin: 16px 17.5px 15px 0px;
-  font: Poppins;
+  font-family: poppinsmedium;
   font-size: 12px;
   font-weight: 500;
   font-stretch: normal;
@@ -53,12 +53,12 @@
 .DesktopAbout {
   width: 335.1px;
   height: 92px;
-  margin-top: 127.5px;
+  margin-top: 137.5px;
   margin-left: 129.4px;
-  font-family: Eczar-SemiBold;
+  font-family: eczarsemibold;
   font-size: 120px;
   font-weight: 600;
-  text-align: left;
+  text-align: right;
   line-height: 0.75;
   color: transparent;
   -webkit-text-stroke: 0.6px var(--dark);
@@ -87,8 +87,8 @@
 .DesktopFirstText {
   width: 280px;
   height: 76px;
-  font: Poppins;
-  font-size: 27px;
+  font-family: poppinssemibold;
+  font-size: 26px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
@@ -103,7 +103,7 @@
 .DesktopSecondText {
   width: 270px;
   height: 224px;
-  font: RobotoMono;
+  font-family: robotomonoregular;
   font-size: 20px;
   font-weight: normal;
   font-stretch: normal;
@@ -119,8 +119,8 @@
 .DesktopThirdText {
   width: 460px;
   height: 208px;
-  font: Poppins;
-  font-size: 35px;
+  font-family: poppinssemibold;
+  font-size: 36px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
@@ -135,7 +135,7 @@
 .DesktopFourthText {
   width: 665px;
   height: 192px;
-  font: RobotoMono;
+  font-family: robotomonoregular;
   font-size: 20px;
   font-weight: normal;
   font-stretch: normal;
@@ -153,7 +153,7 @@
   height: 150px;
   transform: rotate(90deg);
   -webkit-text-stroke: 1px var(--dark);
-  font-family: Eczar-SemiBold;
+  font-family: eczarsemibold;
   font-size: 120px;
   font-weight: 600;
   font-stretch: normal;
@@ -162,15 +162,15 @@
   letter-spacing: normal;
   color: transparent;
   top: 1031px;
-  left: 1019.5px;
+  left: 956.5px;
   position: absolute;
 }
 
 .DesktopMaskTwo {
   width: 996px;
   height: 553px;
-  background-color: var(--light-silver);
-  top: 1514px;
+  background-color: var(--light-grey);
+  top: 1546px;
   left: 140px;
   position: absolute;
 }
@@ -178,15 +178,15 @@
 .DesktopPyramid {
   width: 1074px;
   height: 571px;
-  top: 1597px;
+  top: 1629px;
   left: 230px;
   position: absolute;
 }
 
 .DesktopValues {
-  width: 592px;
+  width: 599px;
   height: 92px;
-  font-family: Eczar-SemiBold;
+  font-family: eczarsemibold;
   font-size: 120px;
   font-weight: 600;
   font-stretch: normal;
@@ -195,7 +195,7 @@
   letter-spacing: normal;
   color: transparent;
   -webkit-text-stroke: 0.6px var(--dark);
-  top: 2083px;
+  top: 2121px;
   left: 422.5px;
   position: absolute;
 }
@@ -203,7 +203,7 @@
 .DesktopFifthText {
   width: 701px;
   height: 156px;
-  font: Poppins;
+  font-family: poppinssemibold;
   font-size: 35px;
   font-weight: 600;
   font-stretch: normal;
@@ -212,7 +212,7 @@
   letter-spacing: normal;
   text-align: center;
   color: var(--dark);
-  top: 2300px;
+  top: 2354px;
   left: 370px;
   position: absolute;
 }
@@ -220,7 +220,7 @@
 .DesktopSixthText {
   width: 560px;
   height: 256px;
-  font: RobotoMono;
+  font-family: robotomonoregular;
   font-size: 20px;
   font-weight: normal;
   font-stretch: normal;
@@ -228,7 +228,7 @@
   line-height: 1.6;
   letter-spacing: normal;
   color: var(--grey);
-  top: 2474px;
+  top: 2599px;
   left: 130px;
   position: absolute;
 }
@@ -236,7 +236,7 @@
 .DesktopSeventhText {
   width: 560px;
   height: 160px;
-  font: RobotoMono;
+  font-family: robotomonoregular;
   font-size: 20px;
   font-weight: normal;
   font-stretch: normal;
@@ -244,7 +244,7 @@
   line-height: 1.6;
   letter-spacing: normal;
   color: var(--grey);
-  top: 2474px;
+  top: 2599px;
   left: 730px;
   position: absolute;
 }

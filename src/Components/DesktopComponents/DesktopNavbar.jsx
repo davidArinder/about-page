@@ -1,5 +1,5 @@
-import logo from "../../Images/logo.svg";
-import hamburgerMenu from "../../Images/hamburger.svg";
+import logo from "../../Assets/Images/logo.svg";
+import hamburgerMenu from "../../Assets/Images/hamburger.svg";
 
 const DesktopNavbar = () => {
   return (

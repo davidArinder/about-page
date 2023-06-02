@@ -1,4 +1,4 @@
-import hamburgerMenu from "../../Images/hamburger.svg";
+import hamburgerMenu from "../../Assets/Images/hamburger.svg";
 
 const MobileNavbar = () => {
   return (

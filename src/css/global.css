@@ -1,7 +1,37 @@
+/* color variables */
 :root {
   --dark: #1e252c;
   --grey: #4a4a4a;
   --white: #fff;
   --light-silver: #d8d8d8;
   --light-grey: #ebe9ea;
+}
+
+/* fonts */
+@font-face {
+  font-family: "eczarsemibold";
+  src: url("../Assets/Fonts/Eczar-SemiBold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppinsmedium";
+  src: url("../Assets/Fonts/Poppins-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppinssemibold";
+  src: url("../Assets/Fonts/Poppins-SemiBold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "robotomonoregular";
+  src: url("../Assets/Fonts/robotomono-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
