@@ -11,7 +11,7 @@
 }
 
 .DesktopNavbar {
-  background-color: #fff;
+  background-color: var(--white);
   width: 1200px;
   height: 50px;
   margin: 27px 120px 0px 129px;
@@ -35,7 +35,7 @@
   font-style: normal;
   line-height: 19px;
   letter-spacing: 3px;
-  color: #1e252c;
+  color: var(--dark);
 }
 
 .DesktopHamburgerMenu {
@@ -61,7 +61,7 @@
   text-align: left;
   line-height: 0.75;
   color: transparent;
-  -webkit-text-stroke: 0.6px #1e252c;
+  -webkit-text-stroke: 0.6px var(--dark);
   position: absolute;
   z-index: 2;
 }
@@ -80,7 +80,7 @@
   height: 493px;
   top: -431px;
   left: 202px;
-  background-color: #d8d8d8;
+  background-color: var(--light-silver);
   position: relative;
 }
 
@@ -94,7 +94,7 @@
   font-style: normal;
   line-height: 1.46;
   letter-spacing: 0.5px;
-  color: #1e252c;
+  color: var(--dark);
   top: 327px;
   left: 1030px;
   position: absolute;
@@ -110,7 +110,7 @@
   font-style: normal;
   line-height: 1.6;
   letter-spacing: normal;
-  color: #4a4a4a;
+  color: var(--grey);
   top: 431px;
   left: 1030px;
   position: absolute;
@@ -126,7 +126,7 @@
   font-style: normal;
   line-height: 1.49;
   letter-spacing: normal;
-  color: #1e252c;
+  color: var(--dark);
   top: 939px;
   left: 130px;
   position: absolute;
@@ -142,7 +142,7 @@
   font-style: normal;
   line-height: 1.6;
   letter-spacing: normal;
-  color: #4a4a4a;
+  color: var(--grey);
   top: 1207px;
   left: 330px;
   position: absolute;
@@ -152,7 +152,7 @@
   width: 574px;
   height: 150px;
   transform: rotate(90deg);
-  -webkit-text-stroke: 1px #1e252c;
+  -webkit-text-stroke: 1px var(--dark);
   font-family: Eczar-SemiBold;
   font-size: 120px;
   font-weight: 600;
@@ -169,7 +169,7 @@
 .DesktopMaskTwo {
   width: 996px;
   height: 553px;
-  background-color: #d8d8d8;
+  background-color: var(--light-silver);
   top: 1514px;
   left: 140px;
   position: absolute;
@@ -194,7 +194,7 @@
   line-height: 1.25;
   letter-spacing: normal;
   color: transparent;
-  -webkit-text-stroke: 0.6px #1e252c;
+  -webkit-text-stroke: 0.6px var(--dark);
   top: 2083px;
   left: 422.5px;
   position: absolute;
@@ -211,7 +211,7 @@
   line-height: 1.49;
   letter-spacing: normal;
   text-align: center;
-  color: #1e252c;
+  color: var(--dark);
   top: 2300px;
   left: 370px;
   position: absolute;
@@ -227,7 +227,7 @@
   font-style: normal;
   line-height: 1.6;
   letter-spacing: normal;
-  color: #4a4a4a;
+  color: var(--grey);
   top: 2474px;
   left: 130px;
   position: absolute;
@@ -243,7 +243,7 @@
   font-style: normal;
   line-height: 1.6;
   letter-spacing: normal;
-  color: #4a4a4a;
+  color: var(--grey);
   top: 2474px;
   left: 730px;
   position: absolute;

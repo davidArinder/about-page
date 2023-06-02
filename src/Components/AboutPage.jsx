@@ -4,6 +4,7 @@ import DesktopAboutPageBody from "./DesktopComponents/DesktopAboutPageBody";
 import MobileAboutPageBody from "./MobileComponents/MobileAboutPageBody";
 import "../css/desktop.styles.css";
 import "../css/mobile.styles.css";
+import "../css/global.css";
 import { useMediaQuery } from "react-responsive";
 
 const AboutPage = () => {
