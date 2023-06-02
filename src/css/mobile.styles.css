@@ -1,0 +1,254 @@
+.Container {
+  display: grid;
+  place-items: start center;
+}
+
+.MobileAboutPage {
+  max-width: 414px; /* TODO: change to max width and height */
+  max-height: 2552px;
+  /* display: grid;
+  place-items: start center; */
+  display: flex;
+  flex-direction: column;
+  /* padding-left: 30px; */
+  /* padding-right: 30px; */
+}
+
+.MobileNavbar {
+  /* background-color: #fff; */
+  width: 414px;
+  display: flex;
+}
+
+.MobileMenu {
+  width: 46px;
+  height: 19px;
+  margin: 23px 17.5px 0px 302.5px;
+  font: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.58;
+  letter-spacing: 3px;
+  color: #1e252c;
+  align-self: right;
+}
+
+.MobileHamburgerMenu {
+  width: 25px;
+  height: 10px;
+  margin: 27px 23px 0px 0px;
+}
+
+.MobileAboutPageBody {
+  /* display: grid;
+    grid-template-columns: 1000px 1fr;
+    grid-template-rows: 1000px 1fr; */
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.MobileAbout {
+  width: 354px;
+  height: 176px;
+  /* margin-top: 18px; */
+  /* margin-left: 30px; */
+  -webkit-text-stroke: 1px #1e252c;
+  font-family: Eczar;
+  font-size: 99px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.78;
+  letter-spacing: normal;
+  color: #fff;
+  top: -18px;
+  left: 30px;
+  position: absolute;
+  z-index: 2;
+}
+
+.MobileApple {
+  width: 322px;
+  height: 270px;
+  margin-top: 139px;
+  margin-left: 30px;
+  /* object-fit: contain; */
+  position: relative;
+  z-index: 1;
+}
+
+.MobileMaskOne {
+  width: 322px;
+  height: 270px;
+  top: -238px;
+  left: 62px;
+  background-color: #d8d8d8;
+  position: relative;
+}
+
+.MobileFirstText {
+  width: 354px;
+  height: 70px;
+  font: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.46;
+  letter-spacing: 0.46px;
+  color: #1e252c;
+  top: 483px;
+  left: 30px;
+  position: absolute;
+}
+
+.MobileSecondText {
+  width: 354px;
+  height: 140px;
+  font: RobotoMono;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  top: 530px;
+  left: 30px;
+  position: absolute;
+}
+
+.MobileVision {
+  width: 354px;
+  height: 129px;
+  -webkit-text-stroke: 0.8px #1e252c;
+  font-family: Eczar;
+  font-size: 73px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.77;
+  letter-spacing: normal;
+  color: transparent;
+  top: 688px;
+  left: 30px;
+  position: absolute;
+}
+
+.MobileThirdText {
+  width: 354px;
+  height: 140px;
+  font: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.46;
+  letter-spacing: 0.46px;
+  color: #1e252c;
+  top: 802px;
+  left: 30px;
+  position: absolute;
+}
+
+.MobileFourthText {
+  width: 354px;
+  height: 308px;
+  font: RobotoMono;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  top: 916px;
+  left: 30px;
+  position: absolute;
+}
+
+.MobileMaskTwo {
+  width: 303px;
+  height: 168px;
+  background-color: #ebe9ea;
+  top: 1200px;
+  left: 30px;
+  position: absolute;
+}
+
+.MobilePyramid {
+  width: 327px;
+  height: 174px;
+  top: 1225px;
+  left: 57px;
+  position: absolute;
+}
+
+.MobileValues {
+  width: 354px;
+  height: 121px;
+  font-family: Eczar;
+  font-size: 68px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.78;
+  letter-spacing: normal;
+  color: transparent;
+  -webkit-text-stroke: 0.8px #1e252c;
+  top: 1436px;
+  left: 30px;
+  position: absolute;
+}
+
+.MobileFifthText {
+  width: 354px;
+  height: 114px;
+  font: Poppins;
+  font-size: 22px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.73;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1e252c;
+  top: 1567px;
+  left: 30px;
+  position: absolute;
+}
+
+.MobileSixthText {
+  width: 354px;
+  height: 280px;
+  font: RobotoMono;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  top: 1721px;
+  left: 33px;
+  position: absolute;
+}
+
+.MobileSeventhText {
+  width: 354px;
+  height: 168px;
+  font: RobotoMono;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  top: 1938px;
+  left: 30px;
+  position: absolute;
+}
